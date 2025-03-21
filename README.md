@@ -1,6 +1,9 @@
 # Frontend Developer Portfolio
 
-This is my Frontend Developer Portfolio showcasing my projects, work experience, and educational background. The portfolio is designed with HTML and CSS only, focusing on layout and structure without additional styling frameworks.
+This is my **Frontend Developer Portfolio** showcasing my projects, work experience, and educational background. The portfolio is built using **HTML** and **CSS** only, focusing on layout and structure without additional frameworks.
+
+## 🌐 Project URL
+[View the Portfolio](https://github.com/PREM015/project1)
 
 ## 🚀 Features
 - Clean HTML structure with semantic tags
@@ -10,7 +13,7 @@ This is my Frontend Developer Portfolio showcasing my projects, work experience,
 
 ## 📂 Folder Structure
 ```
-|-- componts
+|-- components
 |   |-- ai-generated-7926621_1920.jpg
 |   |-- contact.html
 |-- index.html
@@ -35,7 +38,7 @@ This is my Frontend Developer Portfolio showcasing my projects, work experience,
 - Displays copyright information.
 
 ## 🎯 Technologies Used
-- **HTML5** for the structure
+- **HTML5** for structure
 - **CSS3** for styling
 
 ## 🖥️ Installation & Usage
@@ -50,8 +53,8 @@ This is my Frontend Developer Portfolio showcasing my projects, work experience,
 3. Open `index.html` in your browser to view the portfolio.
 
 ## 📝 Future Enhancements
-- Add JavaScript functionality for better interactivity.
-- Improve responsiveness for better mobile support.
+- Add JavaScript functionality for improved interactivity.
+- Enhance responsiveness for better mobile support.
 - Integrate additional sections for certifications and achievements.
 
 ## 💬 Contact
@@ -60,5 +63,6 @@ For any inquiries or feedback, feel free to reach out:
 - 🌐 **GitHub:** [PREM015](https://github.com/PREM015)
 
 ---
+
 **© 2025 All rights reserved.**
 
