@@ -1,0 +1,194 @@
+@font-face {
+    font-family: 'Comic Code';
+    src: url('C:/Users/RPREM/AppData/Local/Microsoft/Windows/Fonts/COMIC CODE BOLD ITALIC_0.OTF') format('opentype');
+    font-weight: bold;
+    font-style: italic;
+}
+
+body {
+    margin: 20px;
+    padding: 0;
+    border: 5px solid black;
+    background-color: white;
+    color: black;
+    background: linear-gradient(90deg, rgba(255, 0, 150, 0.8), rgba(0, 204, 255, 0.8));
+
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+
+    margin-bottom: 100px;
+
+}
+#name {
+    display: flex;
+    align-items: center;
+    background: linear-gradient(135deg, #6a11cb, #2575fc);
+    color: white;
+    padding: 15px 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+#name img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+    border: 2px solid white;
+}
+
+.nav-right {
+    display: flex;
+    gap: 25px;
+}
+
+.nav-right a {
+    color: black;
+    text-decoration: none;
+    transition: color 0.3s ease;
+    font-size: large;
+    text-transform: capitalize;
+    font-size: larger;
+
+}
+
+.nav-right a:hover {
+    color: #f0a500;
+
+}
+
+#name {
+    text-decoration: underline;
+    font-size: 1.5rem;
+    margin: 20px 0;
+}
+
+.nav-below {
+    text-align: center;
+    margin-bottom: 50px;
+    font-family: 'Comic Code', sans-serif;
+
+}
+
+.nav-below h1 {
+    font-family: 'Comic Code';
+    font-size: 28px;
+
+}
+
+.main {
+    display: flex;
+    align-items: stretch;
+    padding: 0;
+    border-top: 3px solid black;
+    border-bottom: 3px solid black;
+    position: relative;
+}
+
+.main-left {
+    width: 33.33%;
+    padding: 0;
+    margin: 0;
+}
+
+.main-middle {
+    width: 33.33%;
+    padding: 20px;
+    margin: 0;
+    position: relative;
+    border-left: 3px solid black;
+}
+
+.main-middle::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: -1px;
+    width: 2px;
+  
+}
+
+.main-right {
+    width: 33.33%;
+    padding: 20px;
+    margin: 0;
+    border-left: 4px solid black;
+}
+
+.projects-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.projects-table td {
+    border: 2px solid black;
+    padding: 10px 15px;
+   
+}
+
+
+
+.middle-second {
+    position: relative;
+    margin-top: 20px;
+    padding-top: 10px;
+}
+
+.middle-second::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -20px;
+    right: -20px;
+    width: calc(100% + 40px);
+    height: 3px;
+    background-color: black;
+}
+
+
+
+.main-right ul {
+    margin-top: 10px;
+    padding-left: 20px;
+}
+
+#title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.comments {
+    display: flex;
+    gap: 15px;
+    /* Adds spacing between reviews */
+}
+
+#one,
+#two,
+#three {
+    width: 225px;
+    border: 2px solid black;
+    padding: 10px;
+    /* Better readability */
+    gap: 20px;
+    margin: 55px;
+    border: 2px solid black;
+    border-radius: 15px;
+    padding: 20px;
+    width: 200px;
+
+
+}
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
